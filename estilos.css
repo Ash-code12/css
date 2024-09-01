@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(128, 89, 236);
+}
+h1{
+  color: azure;#fff
+}
+main h1 {
+  color: cornflowerblue;
+}
+.color-titulo{
+  color: brown;
+}
+#identificador{
+  background-color: darkgreen;
+  color: rgb(202, 43, 43);
+}
