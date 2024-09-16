@@ -1,16 +1,91 @@
-body{
-  background-color: rgb(128, 89, 236);
+h1 {
+color: blueviolet;
 }
-h1{
-  color: azure;#fff
+
+p.texto {
+  color: rgba(0, 0, 163, 0.459);
 }
-main h1 {
-  color: cornflowerblue;
+
+p.especial {
+  color: steelblue;
 }
-.color-titulo{
+
+div p {
+  color: aquamarine;
+}
+
+div h2, div h3 {
   color: brown;
 }
-#identificador{
-  background-color: darkgreen;
-  color: rgb(202, 43, 43);
+
+* {
+  font-size: 24px;
+  color: black;
+}
+
+/* esto es un comentario*/
+
+.color {
+  color: #ff0000;
+}
+  
+.color {
+  color: rgb(0, 225, 0);
+}
+
+.color {
+  border: 5px black dashed;
+}
+
+.color {
+  border: 5px rgb(245, 5, 5) inset;
+
+
+/* 
+dotted
+dashed
+solid
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+
+
+desde groove hasta outset elementos tridimensionales
+*/
+border-style: solid;
+border-color: blue;
+border-radius: 5px;
+border-width: 2rem;
+}
+
+#fondo {
+     background-color: rgba(225, 0, 0);
+     opacity: 0.3;
+     height: 200px;
+     background-image: url("Kats.jpg");
+    
+     
+     background: #ff0000 url(Kats.jpg) repeat-y center  / 100px 100px ;
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px 20px 25px 30px;
+  padding: 30px 15px 5px;
+  border: solid 1px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+  outline: 1px solid red;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  text-decoration:overline;
+  text-shadow: 3px 5px 5px blue;
 }
