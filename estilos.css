@@ -1,5 +1,7 @@
 h1 {
-color: blueviolet;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
 }
 
 p.texto {
@@ -8,20 +10,16 @@ p.texto {
 
 p.especial {
   color: steelblue;
+  background-color: violet;
 }
 
-div p {
-  color: aquamarine;
-}
+
 
 div h2, div h3 {
   color: brown;
 }
 
-* {
-  font-size: 24px;
-  color: black;
-}
+
 
 /* esto es un comentario*/
 
@@ -88,4 +86,71 @@ border-width: 2rem;
   text-align: justify;
   text-decoration:overline;
   text-shadow: 3px 5px 5px blue;
+}
+ 
+.texto-nuevo
+{
+ color: black;
+ text-shadow: 3px 5px 5px red
+text-align: center;
+}
+
+.practice .descen {
+  color: rgb(153, 23, 23);
+  border: double red;
+  text-align: center;
+}
+
+
+
+
+#mi-parrafo {
+border: double blue;
+  text-align: center;
+color: red;
+}
+
+ {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+a[href] {
+  color: rgb(129, 14, 119);
+  text-decoration: underline;
+}
+
+input[value="Ashley"] {
+  font-weight: lighter;
+}
+
+img[src^="https://acortar.link/ei7L50"] {
+  border: 1px solid rgb(77, 233, 77);
+}
+
+a[href$=".html"] {
+  font-style: italic;
+}
+
+div[class*="importante"] {
+  background-color: yellow;
+}
+
+a[class~=principal] {
+  font-size: 18px;
+  border: dotted;
+}
+
+.container > p {
+  font-weight: bold;
+  color: chartreuse;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+.container p ~ p {
+  text-align: right;
 }
