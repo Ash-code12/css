@@ -154,3 +154,108 @@ h1 + p {
 .container p ~ p {
   text-align: right;
 }
+
+a:link {
+  color: blueviolet;
+}
+
+a:visited{
+  color: rgb(116, 182, 79);
+
+}
+
+a:hover{
+  color: rgb(230, 161, 72);
+
+}
+
+a:active{
+  color: #ff0000;
+}
+
+ul{
+  background-color: yellowgreen;
+   list-style-type: georgian;  
+    /* padding-left: 0;   */
+/* list-style-position: inside; */
+}
+
+table{
+  width: 100%;
+border-collapse: collapse;
+}
+
+th,td {
+  border: solid 1px blue;
+  padding: 5px;
+}
+
+th{
+  background-color: tomato;
+  color: antiquewhite;
+  text-align: left;
+
+}
+
+tr:hover{/* Al pasar el cursor cambia de color */
+  background-color: aquamarine;
+cursor: pointer; /* Icono de manito al pasar el cursor */
+}
+
+tr:nth-child(even){/* Marca de color las celdas impares */
+  background-color: #eee;
+}
+
+span{
+   display: block; /* Crea un salto de linea */
+ /*  display: none; *//* ocultar elemntos */
+ /*  visibility: hidden ; */
+ max-width: 300px; /* ancho maximo */
+ background-color: #ff0000;
+}
+
+.inline{
+  display: inline;/* los elementos quedan en una misma linea */
+}
+
+#position{
+ /*  position: fixed; *//* Se mueve con todo el documento */
+ /* position: absolute; *//* se posiciona relativa con el elemento padre mas cercano */
+ position: sticky;/* mezcla entre relative y fixed */
+  left: 20px;
+ top: 25%; 
+}
+.left{
+  float: left;/* toma el elemento y lo hace flotar a la izquierda */
+  width: 200px;
+  height: 200px;
+}
+
+.right{
+  float: right;
+}
+
+
+.container{
+  height: 200px;
+}
+
+.column{
+  margin: 0 ;
+  padding: 10px 0px;
+  width: 33.3%;
+}
+
+.inline-block{
+  display: inline-block;/* a esta propiedad no se le puede agregar height ni weight */
+  height: 55px;
+  background-color: red;
+}
+
+.center{
+  padding: 50px 0;
+  text-align: center;
+  width: 200px;
+  margin: 0 auto;
+  background-color: aqua;
+}
